@@ -40,8 +40,19 @@ label {
     font-size: 1.5em;
     margin: 5px;
 }
+button {
+    background-color: hsl(240, 100%, 50%);
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+button:hover {
+    font-size: 1.6em;
+    background-color: hsl(240, 100%, 70%)
+}
 
-
+    
 
 
 
