@@ -18,11 +18,11 @@
         <form id="form">
             <div class="form-group">
                 <label for="fName">First name:</label>
-                <input type="text" id="fName" name="name" required>
+                <input type="text" id="fName" name="fname" required>
             </div>
             <div class="form-group">
                 <label for="lName">Last Name:</label>
-                <input type="text" id="lName" name="name" required>
+                <input type="text" id="lName" name="lname" required>
             </div>
             <div class="form-group">
                 <label for="phoneNumber">Phone No:</label>
@@ -40,16 +40,20 @@
     </section>
     <section id="toDoList">
         <h2>To Do List</h2>
-        <hr>
+        
         <div id="toDoInput">
             <input type="text" id="taskInput" placeholder="Add a new task...">
-            <button type="submit">Add</button>
+            <button id="addTask">Add</button>
         </div>
-        <div id="list">
-          
-          <!-- <p>Go shopping</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quibusdam cupiditate laboriosam explicabo mollitia deleniti debitis numquam, eum, labore totam nobis voluptate nemo dicta ad amet. Veritatis similique asperiores aut.</p> -->
-        </div>
+        
+            <ul id="taskList">    
+                <!-- <li>Go for shopping.</li>
+                <li>Go for shopping.</li>
+                <li>Go for shopping.</li>
+                <li>Go for shopping.</li> -->
+
+            </ul>
+        
     </section>
 
     <script src="./src/script.js"></script>

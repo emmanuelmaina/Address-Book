@@ -41,31 +41,33 @@ label {
     font-size: 1.5em;
     margin: 5px;
 }
-button {
+button[type="submit"] {
     background-color: hsl(240, 100%, 70%);
     font-size: 1.5em;
     border-radius: 10px;
     margin-bottom: 5px;
     cursor: pointer;
 }
-button:hover {
+button[type="submit"]:hover {
     background-color: hsl(240, 100%, 50%)
 }
 #toDoList {
     border: 1px solid black;
     border-radius: 10px;
-    margin: 20px 50px 20px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
-p {
-    text-align: center;
+li {
+    list-style-type: none; 
+    padding: 10px;
+    margin: 5px;
+    background-color: hsl(240, 100%, 90%);
+    border-radius: 5px;
+    font-size: 1.2em;
     font-family: Poetsen One;
 }
-
-
 
 
 
